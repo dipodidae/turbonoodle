@@ -8,3 +8,15 @@
     </article>
   </div>
 </template>
+<script setup>
+useHead({
+  title: 'Turbo Noodle - One of the few noodles that is turbo',
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: 'Turbo Noodle is a noodle that is turbo.'
+    }
+  ]
+})
+</script>
