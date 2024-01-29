@@ -4,7 +4,7 @@
       <header>
         <h1 class="text-pink-100 text-xl mb-2">Turbo Noodle</h1>
       </header>
-      <NuxtImg src="/images/turbie.jpg" />
+      <NuxtImg src="~/assets/images/turbie.jpg" />
     </article>
   </div>
 </template>
