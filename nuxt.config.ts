@@ -36,8 +36,11 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@nuxtjs/seo"],
   image: {
     provider: 'netlify',
-  }
+  },
+  site: {
+    url: 'https://turbonoodle.nl',
+  },
 })
