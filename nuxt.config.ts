@@ -36,5 +36,8 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss"]
+  modules: ["@nuxt/image", "@nuxtjs/tailwindcss"],
+  image: {
+    provider: 'netlify',
+  }
 })
